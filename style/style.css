@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../Fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Spartan', sans-serif;
+    
+}
+@font-face {
+    font-family: 'Spartan';
+    src: url('Spartan-Bold.woff2') format('woff2'),
+        url('Spartan-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('Spartan-Medium.woff2') format('woff2'),
+        url('Spartan-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: #EFFAFA;
+}
+
+.languages-position {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgba(92, 165, 165, 0.9);
+}
+
+.header-bckg {
+    background-image: url(../img/top-background.svg);
+    height: 156px;
+    min-width: 1340px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.container {
+
+    box-shadow: 0px 15px 20px -5px #0D718226;
+}                                                                                                                    
+
+
+.green {
+    border-left: 5px solid #5CA5A5;
+    border-radius: 100px 0px 0px 100px;
+}                                                                                                   
+
+.job-position {
+    color: #2B3939!important;
+}
+.job-position:hover {
+    color: #5d7e7e!important;
+}
+
+.job-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 140px;
+    margin-top:35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    border-radius: 5px;
+
+}
+
+.job-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:40px 32px ;
+    height: 88px;
+}
+
+.job-info-content1{
+    width: 360px;
+}
+
+.company-logo {
+    width: 88px;
+    height: 88px;
+    margin-right: 35px;
+}
+
+.job-info-sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.company-name  {
+    font-family: 'Spartan' 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5CA5A5;
+}
+.company-name:hover {
+    transition: color 0.5s ease;
+    color: #273b3b ;
+}
+
+.new {
+    margin-left: 16px;
+    padding: 6px 8px;
+    width:50px;
+    background: #5CA5A5;
+    border-radius: 12px;
+    font-family: 'Spartan' 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.0846154px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+.featured {
+    margin-left: 11px;
+    padding: 6px 8px;
+    background: #2B3939;
+    border-radius: 12px;
+    font-family: 'Spartan' 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: -0.0846154px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.job-info-sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    width: 265px;
+    height: 24px;
+}
+
+.job-info-sec3 {
+    font-family: 'Spartan' 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.115385px;
+    color: #7C8F8F;
+    display: flex;
+    padding:0;
+    margin-top: 8px;
+}
+
+.dot-list {
+    display:flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.dot {
+    padding:0 20px 0 0;   
+}
+
+.languages-position {
+    display: flex;
+    width: 400px;
+    margin-right:40px;
+    align-items: center;
+    justify-content: flex-end;  
+    
+}
+
+.lang-pos-elems {
+    font-family: 'Spartan' 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: rgba(92, 165, 165, 0.9);
+    padding: 4px 6px;
+    height: 25px;
+    background-color:#EFFAFA ;
+    align-items: center;
+    justify-content: flex-end;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.lang-pos-elems:hover {
+   transition: background-color 0.5s ease;
+   background-color: #bff1f1;
+}
